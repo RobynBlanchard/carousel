@@ -1,4 +1,25 @@
 .carousel {
-	width: 500px;
-	border: 1px solid black;
+	width: 900px;
+	margin: auto;
+
+}
+
+.heading_and_sub {
+	width: 250px;
+	height: 150px;
+	margin: auto;
+}
+
+.slick-next.slick-arrow::before {
+	content: ">";
+	color: black;
+	font-size: 30px;
+}
+
+
+
+.slick-prev.slick-arrow::before {
+	content: "<";
+	color: black;
+	font-size: 30px;
 }
